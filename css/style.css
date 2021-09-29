@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+   
+}
+
+
+li {
+    list-style-type: none;
+  }
+  a {
+      color: #fff;
+      text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+    margin:auto;
+  }
+.wrapper-heading {
+    margin:0px;
+} 
+.container {
+    width:1300px;
+    margin:auto;
+} 
+.wrapper {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.1);
+    padding-right: 100px;    
+}
+.link-navbar {
+   padding: 10px 20px 10px 30px; 
+   font-weight: 500;
+}
+.logo {
+    margin-right: 240px;
+}
+button {
+   width: 160px;
+   height: 40px;
+   background:#00BAFC;
+   font-size: 15px;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+}
+button:hover {
+    width: 160px;
+    height: 40px;
+    background: #09a4dd;
+    font-size: 15px; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+ }
+
+.points {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: black;
+} 
+.points:hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    color:#09a4dd ;
+}
+
+.header-title {
+    font-size: 30px;
+    line-height: 39px;
+    padding-top: 90px;
+    padding-left: 70px;
+}
+
+.header-text {
+    width: 465px;
+    height: 74px;
+    font-size: 17px;
+    line-height: 24px;
+    padding-left: 70px;
+}
+
+.btn2 {
+    width: 230px;
+    height: 40px;
+    margin-top: 17px;
+    margin-left: 70px;
+}
+
+.header-pic {
+    position: relative;
+    width: 458px;
+    height: 258px;
+    border-radius: 5px;
+    left: 160px;
+    top: 120px;
+}
+.youtube {
+    position: relative;
+    width: 150px;
+    height: 105px;
+    left: -140px;
+    top: 30px;
+}
+.header-section {
+    display: flex;
+}
+
+.section-main {
+    margin-top: 80px;
+}
+.main-title {
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    padding-top: 80px;
+}
+.p-text {
+}
+
+.sites-wrapper {
+    margin-top: 30px;
+}
+
+.sites-wrapper {
+    height: 576px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sites-links {
+    padding: 0px 50px 0px 0px;
+    margin-top:25px;
+    margin-right: 35px;
+}
+.sites-links:hover {
+    padding: 0px 50px 0px 0px;
+    margin-top: 25px;
+    margin-right: 35px;
+    transform: scale(1.1);
+}
+  .p-text {
+      text-align: center;
+      font-size: 19px;
+      line-height: 24px;
+  }
+
+  .btn-links-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+  }
+  .btn-link-links {
+      padding: 0px 20px;
+  }
+
+  .service-wrapper {
+      display: flex;
+      margin-left: 100px;
+  }
+
+  .service-text {
+      margin-left: 180px;
+  }
+  .txst {
+      text-align: left;
+  }
+
+  .btn4 {
+   margin-left: 573px;
+   margin-top: 40px;
+   font-weight: 700;
+   margin-bottom: 60px;
+  }
+  
+  .form-title {
+      text-align: center;
+      padding-top: 60px;
+      color: #fff;
+  }
+
+  .form-text {
+      text-align: center;
+      font-size: 17px;
+      line-height: 24px;
+      color: #fff;
+  }
+
+  .wrapper-form {
+      width: 348px;
+      height: 320px;
+     margin-left: 470px;
+     background-color: #fff;
+     border-radius: 5px;
+     margin-bottom: 0px;
+  }
+
+  .input {
+      width: 300px;
+      height: 56px;
+      border: none;
+      border-radius: 5px;
+      background: #F3F3F3;
+      padding: 20px;
+      margin: 20px 10px 10px 20px;
+      outline: none;
+      font-size: 17px;
+   
+  }
+
+  .btn5 {
+      width: 167px;
+      height: 40px;
+      margin-left: 80px;
+      font-weight: 600;
+  }
+
+  .form-part {
+    background: #00BAFC;
+    height: 550px;
+  }
+
+  .footer-word1 {
+      font-size: 20px;
+      line-height: 27px;
+      color: #fff;
+  }
+
+  .footer-text{
+      width: 320px;
+      height: 120px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+  }
+
+  .wrapper-footer {
+      background-color: black;
+      display: flex;
+      text-align: left;
+  }
+
+  .footer-section {
+    margin-top: -16px;
+  }
+  .footer-texts {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  .footer-texts :hover {
+    font-size: 16px;
+    line-height: 24px;
+    color: #00BAFC;
+  }
+  .footer-link {
+      padding: 50px;
+  }
+  .active {
+      color: rgb(78, 78, 223);
+  }
+ 
